@@ -103,7 +103,7 @@ a {
     height: 200px;
     object-fit: cover;
     border-radius: 12px;
-    border: 3px none #3882F6;
+    border: 5px solid #3882F6;
 }
 
 .content .text {
@@ -111,3 +111,4 @@ a {
     font-size: 15px;
     color: #1F2937;
 }
+
