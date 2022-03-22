@@ -60,13 +60,13 @@ a {
     padding: 8px 0;
 }
 
-.hero .button {
+.button {
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 8px;
     border: 0;
     font-size: 18px;
-    padding: 8px;
+    padding: 8px 12px;
 }
 
 .hero .image {
@@ -131,4 +131,45 @@ a {
     font-weight: bold;
     color: #1F2937;
     align-self: flex-end;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px 75px;
+}
+
+.contact .card {
+    display: flex;
+    background-color: #3882F6;
+    padding: 35px 90px;
+    border-radius: 12px;
+    justify-content: space-between;
+    gap: 75px;
+}
+
+.contact .header {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 24px;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+.contact .subtext { 
+    color: #F9FEF8;
+}
+
+.contact .button {
+    border: 3px solid #F9FAF8;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    justify-content: center;
+    padding: 24px;
 }
