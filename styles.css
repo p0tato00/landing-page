@@ -28,6 +28,7 @@ a {
 
 .header .logo {
     font-size: 24px;
+    font-family: 'Roboto';
     color: #F9FAF8;
     font-weight: 900;
 }
@@ -43,7 +44,7 @@ a {
     flex: 3;
     justify-content: space-between;
     align-items: center;
-    padding: 75px 150px;
+    padding: 150px 150px;
     background-color: #1F2937;
 }
 
@@ -73,4 +74,40 @@ a {
     height: 300px;
     object-fit: cover;
     border-radius: 12px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px 150px;
+}
+
+.content .title {
+    font-size: 42px;
+    font-weight: 900;
+    align-self: center;
+    color: #1F2937;
+    padding: 50px;
+}
+
+.content .info {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    flex-shrink: 0;
+}
+
+.content .image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 3px none #3882F6;
+}
+
+.content .text {
+    text-align: center;
+    font-size: 15px;
+    color: #1F2937;
 }
